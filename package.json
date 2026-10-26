@@ -56,23 +56,26 @@
     "og-image": "bun run scripts/generate-og-image.js"
   },
   "dependencies": {
-    "jsdom": "^29.0.0",
-    "marked": "^16.1.0"
+    "jsdom": "^29.1.1",
+    "marked": "^16.4.2"
   },
   "optionalDependencies": {
-    "puppeteer": "^24.39.1"
+    "puppeteer": "^24.43.1"
   },
   "devDependencies": {
-    "@ai-sdk/anthropic": "^3.0.69",
-    "@ai-sdk/openai": "^3.0.53",
-    "@anthropic-ai/claude-agent-sdk": "^0.2.110",
-    "@google/genai": "^1.50.1",
-    "ai": "^6.0.162",
+    "@ai-sdk/anthropic": "^3.0.135",
+    "@ai-sdk/openai": "^3.0.131",
+    "@anthropic-ai/claude-agent-sdk": "^0.2.141",
+    "@google/genai": "^1.52.0",
+    "ai": "^6.0.315",
     "archiver": "^7.0.1",
     "modern-screenshot": "^4.7.0",
-    "motion": "^12.38.0",
-    "playwright": "^1.58.2",
-    "wrangler": "^4.75.0",
-    "zod": "^4.3.6"
+    "motion": "^12.43.0",
+    "playwright": "^1.64.1",
+    "wrangler": "^4.152.0",
+    "zod": "^4.6.7"
+  },
+  "overrides": {
+    "undici@7.29.1": "7.30.1"
   }
 }
