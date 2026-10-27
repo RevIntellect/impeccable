@@ -24,7 +24,7 @@
     "url": "git+https://github.com/pbakaus/impeccable.git"
   },
   "engines": {
-    "node": ">=18"
+    "node": "^22.13.0 || >=24.0.0"
   },
   "type": "module",
   "bin": {
@@ -60,7 +60,7 @@
     "marked": "^16.4.2"
   },
   "optionalDependencies": {
-    "puppeteer": "^24.43.1"
+    "puppeteer": "^25.16.0"
   },
   "devDependencies": {
     "@ai-sdk/anthropic": "^3.0.135",
