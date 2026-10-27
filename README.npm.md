@@ -63,7 +63,7 @@ impeccable detect [options] [file-or-dir-or-url...]
 
 ## Requirements
 
-- Node.js 18+
+- Node.js 22.13+ (22.x), or Node.js 24+
 - `jsdom` (included as dependency, used for HTML scanning)
 - `puppeteer` (optional, only needed for URL scanning)
 
